@@ -1,0 +1,104 @@
+/* CSS Document */
+/*---Tittle Bar---*/
+.atas{
+	width:100%;
+	height:80px;
+	background:url(images/about_1.png);
+	margin-top:0px;
+}
+.garis{
+	width:100%;
+	height:2px;
+	background:url(images/about_1.png);
+	margin-top:2px;
+}
+.logo{
+	float:left;
+	width:450px;
+	height:68px;
+	font-family:"Agency FB";
+	font-size:36px;
+	color:#000066;
+	padding-left:5px;
+	padding-bottom:0px;
+	padding-top:15px;
+}
+
+.menu-bar{
+	font-family:"Courier New", Courier, monospace;
+	font-size:16px;
+	float:right;
+	width:540px;
+	height:68px;
+	margin: 0 auto;
+	padding-left:5px;
+	padding-bottom:0px;
+	padding-top:15px;
+}
+.menu-bar ul{
+	list-style:none;
+	outline:none;
+	margin-top:20px;
+}
+.menu-bar ul li{
+	float:left;
+	width:90px;
+	height:44px;
+	line-height:44px;
+	text-align:center;
+}
+.menu-bar ul li a{
+	color:#000000;
+}
+.menu-bar ul li a:active{
+	background-image:url(images/about_3.png);
+	color:#FF0000;
+}
+
+/*-------------BODY--------*/
+.body{
+	background:url(images/about_2.png)fixed;
+	width:100%;
+	height:100%;
+}
+.gambar-depan{
+	background-image:url(images/pengurus.png);
+	width:100%;
+	height:650px;
+	margin-top:5px;
+}
+.menu{
+	font-family:"Courier New", Courier, monospace;
+	width:100%;
+	height:500px;
+	margin: 0 ;
+	padding-left:0px;
+	padding-bottom:0px;
+	padding-top:15px;
+	padding-right:0px;
+}
+.menu ul{
+	list-style:none;
+	outline:none;
+	margin-top:20px;
+}
+.menu ul li{
+	float:left;
+	height:44px;
+	width:350px;
+	line-height:44px;
+	margin-left:25px;
+	text-align:center;
+}
+.menu h1{
+	font-size:18px;
+	color:#999999;
+	float:left;
+	height:44px;
+	width:350px;
+	line-height:44px;
+	text-align:center;
+}
+.menu ul li a{
+	color:#666666;
+}
