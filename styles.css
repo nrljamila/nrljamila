@@ -52,7 +52,7 @@
 }
 .menu-bar ul li a:active{
 	background-image:url(images/about_3.png);
-	color:#FF0000;
+	background-color:#00FFCC;
 }
 
 /*-------------BODY--------*/
@@ -63,7 +63,25 @@
 }
 .content{
 	width:100%;
-	height:auto;
+	height:500 auto;
+}
+.text{
+	font-family:"Courier New", Courier, monospace;
+	font-size:14px;
+	margin-left:50px;
+	margin-right:50px;
+}
+.text ul{
+	list-style:none;
+	outline:none;
+	margin-right:300px;
+}
+.text ul li{
+ color:#000000;
+}
+.text-rightbar{
+	float:right;
+	width:25%;
 }
 .gambar-depan{
 	background-image:url(images/pengurus.png);
@@ -108,28 +126,46 @@
 	color:#666666;
 	
 }
+.nav{
+	margin:0px;
+	width:auto;
+	height:25px;
+	background-color:#33CCCC;
+}
+.nav ul{
+	list-style:none;
+	outline:none;
+	vertical-align:middle;
+}
+.nav ul li{
+	line-height:10px;
+	vertical-align:middle;
+	padding-top:5px;
+}
 /*FOOTER*/
 .bawah{
 	width:100%;
-	height:80px;
+	height:120px;
 	background:url(images/about_1.png);
 	margin-top:2px;
 }
 .garis-bawah{
-	width:100%;
+	width:auto;
 	height:2px;
 	background:url(images/about_1.png);
 	margin-top:5px;
 }
 .contact{
 	float:right;
-	width:300px;
+	width:250px;
 	font-size:12px;
 	color:#666666;
+	line-height:20px;
 }
 .contact img{
-	width:20px;
-	height:20px;
+	width:13px;
+	height:15px;
+	vertical-align:middle;
 }
 .contact ul{
 	margin-left:1px;
@@ -139,4 +175,8 @@
 }
 .contact ul li{
 	color:#333333;
+	vertical-align:middle;
+}
+.contact ul li h1{
+	font-size:14px;
 }
